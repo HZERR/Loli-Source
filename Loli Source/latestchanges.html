@@ -1,0 +1,10 @@
+<ul>
+<li>v1.16.22 is the latest stable release of Project Lombok.</li>
+<li>BREAKING CHANGE: The in 1.16.22 introduced configuration key <code>lombok.noArgsConstructor.extraPrivate</code> is now <code>false</code> by default.</li>
+<li>BUGFIX: Do not generate a private no-args constructor if that breaks the code. , ,</li>
+<li>BUGFIX: Using boolean parameters in lombok annotations would fail.</li>
+<li>BUGFIX: Delombok would give an error message.</li>
+<li>BUGFIX: Eclipse java10 var support didn't work if lombok was installed in your eclipse.</li>
+<li>FEATURE: Google's Flogger (a.k.a. FluentLogger) is now available via <code>@Flogger</code>.</li>
+<li>FEATURE: <code>@FieldNameConstants</code> has been extended to support prefixes and suffixes. By default, the generated constants are prefixed with <code>FIELD_</code>. Docs on @FieldNameConstants.</li>
+</ul>
